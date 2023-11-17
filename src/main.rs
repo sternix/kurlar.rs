@@ -1,11 +1,3 @@
-/*
-[dependencies]
-reqwest = { version = "0.11"}
-quick-xml = { version = "0.31", features = [ "serialize" ] }
-serde = {version = "1.0", features = ["derive"]}
-tokio = {version = "1", features=["full"]}
-*/
-
 use quick_xml::de::from_str;
 use reqwest::{Client, Error};
 use serde::{Deserialize, Serialize};
